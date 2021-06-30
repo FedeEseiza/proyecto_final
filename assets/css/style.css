@@ -163,13 +163,13 @@ body
 {
     /*border: solid #e74c3c;*/
     border-radius: 1.2rem;
-    transition: 0.3s;
+    transition: transform 0.3s;
     background-image: url("../img/bg.jpg");
 
 .card:hover
 {
     transform: translateY(-15px);
-    transition: 0.3s;
+    transition: transform 0.3s;
 }
 .title-menu
 {
