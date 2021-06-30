@@ -164,7 +164,7 @@ body
     /*border: solid #e74c3c;*/
     border-radius: 1.2rem;
     transition: 0.3s;
-    background-image: url(/assets/img/bg.jpg);
+    background-image: url(assets/img/bg.jpg);
 }
 .card:hover
 {
