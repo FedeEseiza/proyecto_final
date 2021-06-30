@@ -86,8 +86,7 @@ body
 .carousel-inner img 
 {
     filter: grayscale(20%);
-    height: 100vh;
-    width: 200vh;
+    height: 90vh;
 }
 /* ABOUT */ 
 .container_about
@@ -165,7 +164,7 @@ body
     /*border: solid #e74c3c;*/
     border-radius: 1.2rem;
     transition: 0.3s;
-    background-image: url(assets/img/bg.jpg);
+    background-image: url(/assets/img/bg.jpg);
 }
 .card:hover
 {
