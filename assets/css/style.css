@@ -165,7 +165,7 @@ body
     border-radius: 1.2rem;
     transition: transform 0.3s;
     background-image: url("../img/bg.jpg");
-
+}
 .card:hover
 {
     transform: translateY(-15px);
@@ -180,4 +180,8 @@ body
 {
     font-size: var(--font-semi-bold);
     color: var(--body-color);
+}
+.facebook-icon
+{
+    color: var(--first-color-alt);
 }
