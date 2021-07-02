@@ -154,11 +154,16 @@ body
     font-size: var(--h3-font-size);
     padding-top: 1rem;
 }
+/* MENU */
 .container-title-menu
 {
     padding-top: 1rem;
 }
-/* MENU */
+.container-title-menu img
+{
+    width: 5rem;
+    height: 5rem;
+}
 .card
 {
     /*border: solid #e74c3c;*/
