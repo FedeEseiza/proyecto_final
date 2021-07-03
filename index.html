@@ -42,12 +42,40 @@
                         <a class="nav-link active" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#contacto">Contacto</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Contacto
+                        </button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Mensaje para BerlinFood&Beer</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Mensaje:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Enviar Mensaje</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- CAROUSEL -->
     <div class="container-fluid">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -172,7 +200,7 @@
         <div class="row">
             <!-- CARD 1-->
             <div class="col-md-4">
-                <div class="card mt-3" style="height: 17rem;">
+                <div class="card mt-3 card-bg-burger" style="height: 17rem;">
                     <div class="product-1 align-items-center p-2 text-center">
                         <img src="assets/img/post1.jpg" alt="" class="rounded" width="200">
                         <h5 class="title-menu">Big Berlin</h5>
@@ -187,7 +215,7 @@
             </div>
             <!-- CARD 2-->
             <div class="col-md-4">
-                <div class="card mt-3" style="height: 17rem;">
+                <div class="card mt-3 card-bg-burger" style="height: 17rem;">
                     <div class="product-2 align-items-center p-2 text-center">
                         <img src="assets/img/post2.jpg" alt="" class="rounded" width="200">
                         <h5 class="title-menu">Doble Berlin</h5>
@@ -202,7 +230,7 @@
             </div>
             <!-- CARD 3-->
             <div class="col-md-4">
-                <div class="card mt-3" style="height: 17rem;">
+                <div class="card mt-3 card-bg-burger" style="height: 17rem;">
                     <div class="product-3 align-items-center p-2 text-center">
                         <img src="assets/img/post3.jpg" alt="" class="rounded" width="200">
                         <h5 class="title-menu">Pampa Clasica</h5>
@@ -218,9 +246,9 @@
         </div>
     </div>
     <!-- MENU TITLE -->
-    <div class="container-fluid">
+    <div class="container-fluid container-title-menu">
         <section id="menu">
-            <div class="container_services container-title-menu">
+            <div class="container_services">
                 <h1>Cervezas</h1>
             </div>
         </section>
@@ -230,7 +258,7 @@
         <div class="row">
             <!-- CARD 4-->
             <div class="col-md-4">
-                <div class="card mt-3">
+                <div class="card mt-3 card-bg-beer">
                     <div class="product-4 align-items-center p-2 text-center">
                         <img src="assets/img/beer_ipa.jpg" alt="" class="rounded" height="150" width="200">
                         <h5 class="title-menu">IPA</h5>
@@ -245,7 +273,7 @@
             </div>
             <!-- CARD 5-->
             <div class="col-md-4">
-                <div class="card mt-3">
+                <div class="card mt-3 card-bg-beer">
                     <div class="product-5 align-items-center p-2 text-center">
                         <img src="assets/img/beer_redipa.jpg" alt="" class="rounded" height="150" width="200">
                         <h5 class="title-menu">RED IPA</h5>
@@ -260,7 +288,7 @@
             </div>
             <!-- CARD 6-->
             <div class="col-md-4">
-                <div class="card mt-3">
+                <div class="card mt-3 card-bg-beer">
                     <div class="product-6 align-items-center p-2 text-center">
                         <img src="assets/img/beer_negra.jpg" alt="" class="rounded" height="150" width="200">
                         <h5 class="title-menu">STOUT</h5>
@@ -275,23 +303,6 @@
             </div>
         </div>
     </div>
-    <!-- FORM CONTACT -->
-    <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="inputName">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="">
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-    </form>
     <!-- FOOTER -->
     <div class="">
         <footer class="bg-dark text-center text-white">

@@ -77,6 +77,18 @@ body
 {
     color: var(--first-color-alt) !important;
 }
+/* BUTTON NAVBAR */
+.btn
+{
+    color: var(--title-color);
+    background-color: var(--first-color);
+    border: none;
+}
+.btn:hover
+{
+    color: var(--body-color);
+    background-color: var(--first-color-alt);
+}
 /* CAROUSEL */
 .titulo-carousel
 {
@@ -169,12 +181,19 @@ body
     /*border: solid #e74c3c;*/
     border-radius: 1.2rem;
     transition: transform 0.3s;
-    background-image: url("../img/bg-menu.jpg");
 }
 .card:hover
 {
     transform: translateY(-15px);
     transition: transform 0.3s;
+}
+.card-bg-burger
+{
+    background-image: url("../img/bg-menu.jpg");
+}
+.card-bg-beer
+{
+    background-image: url("../img/bg-beer.jpg");
 }
 .title-menu
 {
