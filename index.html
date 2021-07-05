@@ -18,6 +18,9 @@
     <a href="#" class="ws-contact">
         <i class="fa fa-whatsapp ws-icon" aria-hidden="true"></i>
     </a>
+    <button type="button" class="location" data-bs-toggle="modal" data-bs-target="#ubicacionModal">
+        <i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
+    </button>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light sticky-top">
         <div class="container-fluid">
@@ -42,7 +45,7 @@
                         <a class="nav-link active" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
                             Contacto
                         </button>
                     </li>
@@ -50,8 +53,8 @@
             </div>
         </div>
     </nav>
-    <!-- MODAL -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- MODAL CONTACTO -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -76,6 +79,20 @@
           </div>
         </div>
       </div>
+    <!-- MODAL UBICACION -->
+    <div class="modal fade" id="ubicacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ubicacion</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1623.7559057717122!2d-58.31387756857932!3d-35.51634784342563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959801bb4a26cf95%3A0x28938daedd9cc4fe!2zQmVybMOtbg!5e0!3m2!1ses-419!2sar!4v1625520330934!5m2!1ses-419!2sar" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+    </div>
     <!-- CAROUSEL -->
     <div class="container-fluid">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
