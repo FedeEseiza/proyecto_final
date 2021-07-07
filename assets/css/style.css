@@ -195,8 +195,9 @@ body
 }
 .container-title-menu img
 {
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.5rem;
 }
 .card
 {
@@ -211,21 +212,23 @@ body
 }
 .card-bg-burger
 {
-    background-image: url("../img/bg-menu.jpg");
+    background-color: var(--body-color);
+    box-shadow: 0 2px 4px rgba(3,74,40,0.15);
 }
 .card-bg-beer
 {
-    background-image: url("../img/bg-beer.jpg");
+    background-color: var(--body-color);
+    box-shadow: 0 2px 4px rgba(3,74,40,0.15);
 }
 .title-menu
 {
     padding-top: 1rem;
-    color: var(--body-color);
+    color: var(--title-color);
 }
 .text-menu
 {
     font-size: var(--font-semi-bold);
-    color: var(--body-color);
+    color: var(--text-color);
 }
 /* FOOTER */
 .btn-icon
