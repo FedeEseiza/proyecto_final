@@ -61,6 +61,12 @@
 {
     color: var(--first-color-alt) !important;
 }
+/* MODAL */
+.ubication
+{
+    width:500px;
+    height:450px;
+}
 /* BUTTON NAVBAR */
 .btn
 {
