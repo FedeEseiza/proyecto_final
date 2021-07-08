@@ -38,26 +38,10 @@
 {
     font-family: var(--body-font);
 }
-/*
-.img_logo
-{
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
-    padding-left: 0.5rem;
-}
-*/
-/*
-body
-{
-    background-image: url(/assets/img/bg.jpg);
-}
-*/
 /* NAVBAR*/
 .navbar
 {
     background-color: #f4f6f7 !important;
-    opacity: 90%;
 }
 .title_logo
 {
