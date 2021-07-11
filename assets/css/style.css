@@ -191,14 +191,103 @@
 }
 .card
 {
-    /*border: solid #e74c3c;*/
     border-radius: 1.2rem;
-    transition: transform 0.3s;
+    overflow: hidden;
 }
-.card:hover
+.card .span-effect 
 {
-    transform: translateY(-15px);
-    transition: transform 0.3s;
+    transition: 0.5;
+    opacity: 0;
+}
+
+.card:hover .span-effect 
+{
+    opacity: 1;
+}
+
+.card .span-effect:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, var(--first-color-alt));
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+    0%
+    {
+        transform: translateX(-100%)
+    }
+    100%
+    {
+        transform: translateX(100%)
+    }
+}
+.card .span-effect:nth-child(2)
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, var(--first-color-alt));
+    animation: animate2 2s linear infinite;
+}
+@keyframes animate2
+{
+    0%
+    {
+        transform: translateY(-100%)
+    }
+    100%
+    {
+        transform: translateY(100%)
+    }
+}
+.card .span-effect:nth-child(3)
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, var(--first-color-alt));
+    animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+    0%
+    {
+        transform: translateX(100%)
+    }
+    100%
+    {
+        transform: translateX(-100%)
+    }
+}
+.card .span-effect:nth-child(4)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, var(--first-color-alt));
+    animation: animate4 2s linear infinite;
+}
+@keyframes animate4
+{
+    0%
+    {
+        transform: translateY(100%)
+    }
+    100%
+    {
+        transform: translateY(-100%)
+    }
 }
 .card-bg-burger
 {
