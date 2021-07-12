@@ -49,10 +49,6 @@
     color: var(--first-color);
     font-size: var(--font-medium);
 }
-.navbar-nav
-{
-    text-transform: uppercase;
-}
 .nav-item a
 {
     color: var(--title-color) !important;
