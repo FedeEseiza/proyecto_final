@@ -12,7 +12,7 @@ sr.reveal(`.title_about, .img-about,
 })
 // ANIMATION TYPED TEXT
 var typed = new Typed(".typing",{
-    strings: ["19:00", "a", "00:00"],
+    strings: ["19:00 a 00:00"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
