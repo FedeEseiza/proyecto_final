@@ -6,7 +6,7 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.title_about, .img_about,
+sr.reveal(`.title_about, .img-about,
             .description_about, .title-body, .container-type-services, .card-bg-burger, .card-bg-beer, .footer-container`, {
     interval: 200
 })
