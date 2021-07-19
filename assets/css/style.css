@@ -96,19 +96,30 @@
 {
     color: var(--title-color);
     transform: translateY(1rem);
+    padding-left: 2rem;
+}
+.title_about span
+{
+    color: var(--first-color-alt);
 }
 .description_about
 {
     transform: translateY(1.5rem);
     font-size: 1rem;
+    padding-left: 2rem;
 }
 .img_about
 {
     float: right;
-    width: 45rem;
-    height: 25rem;
+    width: 45%;
+    height: 60%;
+    border-radius: 10px;
 }
 /* SERVICES */
+.title-body span
+{
+    color: var(--first-color-alt);
+}
 .container_services
 {
     text-align: center;
