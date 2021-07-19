@@ -163,6 +163,10 @@
     font-size: 2rem;
     color: var(--body-color);
 }
+.ws-contact:hover
+{
+    background: #138d75;
+}
 .location
 {
     position: fixed;
@@ -183,6 +187,10 @@
 {
     color: var(--body-color);
     font-size: 2rem;
+}
+.location:hover
+{
+    background: var(--first-color);
 }
 /* MENU */
 .container-title-menu
